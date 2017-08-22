@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mr Roboto</title>
+  </head>
+  <body>
+    <section>
+    
+      {{#users}}
+        
+        <h2>{{name}}</h2>
+        <img src="{{avatar}}">
+        {{#job}}
+          <h4>{{job}}</h4>
+          <h4>{{company}}</h4>
+        {{/job}}
+      {{/users}}
+    
+    </section>
+  </body>
+
+</html>
+
